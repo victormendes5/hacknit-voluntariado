@@ -10,33 +10,38 @@ import UIKit
 
 class SubTableViewController: UITableViewController {
 
-    var modelDetail: [DetailModel]!
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        
-    }
+    var model: [DetailModel]!
 
     // MARK: - Table view data source
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return modelDetail.count
+        return model.count
     }
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "subCell", for: indexPath)
-//        cell.textLabel?.text = modelDetail[indexPath.row].
-        return cell
+        if let cell = tableView.dequeueReusableCell(withIdentifier: "subCell", for: indexPath) as? SubTableViewCell {
+            cell.titleLbl?.text = model[indexPath.row].title
+            cell.subTitleLbl.text = model[indexPath.row].subTitle
+            cell.dataLbl.text = model[indexPath.row].date
+            return cell
+        }
+        return UITableViewCell()
+    }
+    
+    override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 100
     }
 
-    /*
     // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    
+    override public func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let destination = segue.destination as? DetailTableViewController
+        if segue.identifier == "detailSegue" {
+            if let indexPath = self.tableView.indexPathForSelectedRow {
+                let selected = model![indexPath.row]
+                destination?.model = selected
+            }
+        }
     }
-    */
 
 }

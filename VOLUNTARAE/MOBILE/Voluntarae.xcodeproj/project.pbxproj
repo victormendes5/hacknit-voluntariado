@@ -17,6 +17,8 @@
 		008B4AE82131249D0007191D /* CategoriesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008B4AE72131249D0007191D /* CategoriesModel.swift */; };
 		008B4AEA213124C60007191D /* DetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008B4AE9213124C60007191D /* DetailModel.swift */; };
 		008B4AEE2131258D0007191D /* CategoriesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008B4AED2131258D0007191D /* CategoriesTableViewController.swift */; };
+		00B651B621321068009827C7 /* SubTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B651B521321068009827C7 /* SubTableViewCell.swift */; };
+		00B651B821321262009827C7 /* DetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B651B721321262009827C7 /* DetailTableViewController.swift */; };
 		B6E86B52C5BC30112DA827F9 /* Pods_AcaoNit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9EE7E00245E4EB4E1D99D18 /* Pods_AcaoNit.framework */; };
 /* End PBXBuildFile section */
 
@@ -33,6 +35,8 @@
 		008B4AE72131249D0007191D /* CategoriesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesModel.swift; sourceTree = "<group>"; };
 		008B4AE9213124C60007191D /* DetailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailModel.swift; sourceTree = "<group>"; };
 		008B4AED2131258D0007191D /* CategoriesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesTableViewController.swift; sourceTree = "<group>"; };
+		00B651B521321068009827C7 /* SubTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubTableViewCell.swift; sourceTree = "<group>"; };
+		00B651B721321262009827C7 /* DetailTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailTableViewController.swift; sourceTree = "<group>"; };
 		A78B24F0E527C3C665BD35E9 /* Pods-AcaoNit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AcaoNit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AcaoNit/Pods-AcaoNit.debug.xcconfig"; sourceTree = "<group>"; };
 		F9EE7E00245E4EB4E1D99D18 /* Pods_AcaoNit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AcaoNit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC42A1C6E0C0F41BBDF91C20 /* Pods-AcaoNit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AcaoNit.release.xcconfig"; path = "Pods/Target Support Files/Pods-AcaoNit/Pods-AcaoNit.release.xcconfig"; sourceTree = "<group>"; };
@@ -55,6 +59,7 @@
 			children = (
 				008B4AD5213121950007191D /* Main.storyboard */,
 				00890B9421315684000B002C /* SignUp.storyboard */,
+				00B651B521321068009827C7 /* SubTableViewCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -74,6 +79,7 @@
 			children = (
 				008B4AED2131258D0007191D /* CategoriesTableViewController.swift */,
 				00890B97213190E3000B002C /* SubTableViewController.swift */,
+				00B651B721321262009827C7 /* DetailTableViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -269,6 +275,8 @@
 				008B4AEA213124C60007191D /* DetailModel.swift in Sources */,
 				00890B98213190E3000B002C /* SubTableViewController.swift in Sources */,
 				008B4AEE2131258D0007191D /* CategoriesTableViewController.swift in Sources */,
+				00B651B621321068009827C7 /* SubTableViewCell.swift in Sources */,
+				00B651B821321262009827C7 /* DetailTableViewController.swift in Sources */,
 				00890B9E2131A032000B002C /* Requests.swift in Sources */,
 				008B4AD2213121950007191D /* AppDelegate.swift in Sources */,
 				008B4AE82131249D0007191D /* CategoriesModel.swift in Sources */,
