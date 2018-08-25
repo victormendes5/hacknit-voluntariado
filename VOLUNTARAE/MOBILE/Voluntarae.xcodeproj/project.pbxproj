@@ -17,7 +17,6 @@
 		008B4AE82131249D0007191D /* CategoriesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008B4AE72131249D0007191D /* CategoriesModel.swift */; };
 		008B4AEA213124C60007191D /* DetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008B4AE9213124C60007191D /* DetailModel.swift */; };
 		008B4AEE2131258D0007191D /* CategoriesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008B4AED2131258D0007191D /* CategoriesTableViewController.swift */; };
-		00CE03892131378B0014BFCF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 00CE03882131378A0014BFCF /* GoogleService-Info.plist */; };
 		B6E86B52C5BC30112DA827F9 /* Pods_AcaoNit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9EE7E00245E4EB4E1D99D18 /* Pods_AcaoNit.framework */; };
 /* End PBXBuildFile section */
 
@@ -34,7 +33,6 @@
 		008B4AE72131249D0007191D /* CategoriesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesModel.swift; sourceTree = "<group>"; };
 		008B4AE9213124C60007191D /* DetailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailModel.swift; sourceTree = "<group>"; };
 		008B4AED2131258D0007191D /* CategoriesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesTableViewController.swift; sourceTree = "<group>"; };
-		00CE03882131378A0014BFCF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		A78B24F0E527C3C665BD35E9 /* Pods-AcaoNit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AcaoNit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AcaoNit/Pods-AcaoNit.debug.xcconfig"; sourceTree = "<group>"; };
 		F9EE7E00245E4EB4E1D99D18 /* Pods_AcaoNit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AcaoNit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC42A1C6E0C0F41BBDF91C20 /* Pods-AcaoNit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AcaoNit.release.xcconfig"; path = "Pods/Target Support Files/Pods-AcaoNit/Pods-AcaoNit.release.xcconfig"; sourceTree = "<group>"; };
@@ -67,7 +65,6 @@
 				008B4AD8213121970007191D /* Assets.xcassets */,
 				008B4ADA213121970007191D /* LaunchScreen.storyboard */,
 				008B4ADD213121970007191D /* Info.plist */,
-				00CE03882131378A0014BFCF /* GoogleService-Info.plist */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -207,7 +204,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				008B4ADC213121970007191D /* LaunchScreen.storyboard in Resources */,
-				00CE03892131378B0014BFCF /* GoogleService-Info.plist in Resources */,
 				008B4AD9213121970007191D /* Assets.xcassets in Resources */,
 				008B4AD7213121950007191D /* Main.storyboard in Resources */,
 				00890B9621315684000B002C /* SignUp.storyboard in Resources */,

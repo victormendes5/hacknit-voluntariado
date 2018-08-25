@@ -41,26 +41,26 @@ class CategoriesTableViewController: UITableViewController {
 
 // MARK: - Request
 
-extension CategoriesTableViewController {
-    
-    func RequestCategories() {
-        let provider = MoyaProvider<Requests>()
-        provider.request(.categories) { (result) in
-            switch result {
-            case .success(let response):
-                let decoder = JSONDecoder()
-                do {
-                    let decode = try decoder.decode([CategoryModel].self, from: response.data)
-                    self.model = decode
-                    self.tableView.reloadData()
-                    
-                } catch let fail {
-                    print(fail)
-                }
-            case .failure(let error):
-                print(error)
-            }
-        }
-    }
-    
-}
+//extension CategoriesTableViewController {
+//    
+//    func RequestCategories() {
+//        let provider = MoyaProvider<Requests>()
+//        provider.request(.categories) { (result) in
+//            switch result {
+//            case .success(let response):
+//                let decoder = JSONDecoder()
+//                do {
+//                    let decode = try decoder.decode([CategoryModel].self, from: response.data)
+//                    self.model = decode
+//                    self.tableView.reloadData()
+//                    
+//                } catch let fail {
+//                    print(fail)
+//                }
+//            case .failure(let error):
+//                print(error)
+//            }
+//        }
+//    }
+//    
+//}

@@ -10,7 +10,7 @@ import UIKit
 
 class SubTableViewController: UITableViewController {
 
-    var model = [String: AnyObject]()
+    var modelDetail: [DetailModel]!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,12 +20,12 @@ class SubTableViewController: UITableViewController {
     // MARK: - Table view data source
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return model.count
+        return modelDetail.count
     }
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "subCell", for: indexPath)
-//        cell.textLabel?.text = model["Title"]?//[indexPath.row]
+//        cell.textLabel?.text = modelDetail[indexPath.row].
         return cell
     }
 
