@@ -18,7 +18,6 @@
 		008B4AEE2131258D0007191D /* CategoriesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008B4AED2131258D0007191D /* CategoriesTableViewController.swift */; };
 		00B651B621321068009827C7 /* SubTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B651B521321068009827C7 /* SubTableViewCell.swift */; };
 		00B651B821321262009827C7 /* DetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B651B721321262009827C7 /* DetailTableViewController.swift */; };
-		00B651BB213262F0009827C7 /* Messages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B651BA213262F0009827C7 /* Messages.swift */; };
 		2D7F757AE8F8821AB42CF24B /* Pods_Voluntarae.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08F221F592439963E486131F /* Pods_Voluntarae.framework */; };
 /* End PBXBuildFile section */
 
@@ -36,7 +35,6 @@
 		008B4AED2131258D0007191D /* CategoriesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesTableViewController.swift; sourceTree = "<group>"; };
 		00B651B521321068009827C7 /* SubTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubTableViewCell.swift; sourceTree = "<group>"; };
 		00B651B721321262009827C7 /* DetailTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailTableViewController.swift; sourceTree = "<group>"; };
-		00B651BA213262F0009827C7 /* Messages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Messages.swift; sourceTree = "<group>"; };
 		08F221F592439963E486131F /* Pods_Voluntarae.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Voluntarae.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B95BA5EF6DB483BBEBE8183 /* Pods-Voluntarae.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Voluntarae.release.xcconfig"; path = "Pods/Target Support Files/Pods-Voluntarae/Pods-Voluntarae.release.xcconfig"; sourceTree = "<group>"; };
 		720EF7AF016B6D766EA4DD70 /* Pods-Voluntarae.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Voluntarae.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Voluntarae/Pods-Voluntarae.debug.xcconfig"; sourceTree = "<group>"; };
@@ -117,7 +115,6 @@
 			children = (
 				008B4AD1213121950007191D /* AppDelegate.swift */,
 				00890B9F2131ACDD000B002C /* API */,
-				00B651B9213262D0009827C7 /* Commons */,
 				008B4AE6213124870007191D /* Entities */,
 				00890B922131563C000B002C /* Resources */,
 				00890B9121315630000B002C /* View */,
@@ -133,14 +130,6 @@
 				008B4AE9213124C60007191D /* DetailModel.swift */,
 			);
 			path = Entities;
-			sourceTree = "<group>";
-		};
-		00B651B9213262D0009827C7 /* Commons */ = {
-			isa = PBXGroup;
-			children = (
-				00B651BA213262F0009827C7 /* Messages.swift */,
-			);
-			path = Commons;
 			sourceTree = "<group>";
 		};
 		762FA7A8FE04C1818770B413 /* Frameworks */ = {
@@ -284,7 +273,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				008B4AEA213124C60007191D /* DetailModel.swift in Sources */,
-				00B651BB213262F0009827C7 /* Messages.swift in Sources */,
 				00890B98213190E3000B002C /* SubTableViewController.swift in Sources */,
 				008B4AEE2131258D0007191D /* CategoriesTableViewController.swift in Sources */,
 				00B651B621321068009827C7 /* SubTableViewCell.swift in Sources */,

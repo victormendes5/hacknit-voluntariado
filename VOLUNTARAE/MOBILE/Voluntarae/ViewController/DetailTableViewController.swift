@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SwiftMessages
 
 class DetailTableViewController: UITableViewController {
 
@@ -30,6 +31,10 @@ class DetailTableViewController: UITableViewController {
         setUp()
     }
     
+    @IBAction func subscribeButton(_ sender: Any) {
+        confirmSubdscribe()
+    }
+    
     override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return UITableViewAutomaticDimension
     }
@@ -43,9 +48,34 @@ class DetailTableViewController: UITableViewController {
         self.descriptionLbl.text = model.description
         self.organizerLbl.text = model.organizer
         self.phoneLbl.text = model.phone
-        self.socialMedia.text = model.socialMedia
+        self.socialMedia.text = model.youtube
         self.tagsLbl.text = model.tags
         self.titleLbl.text = model.title
+    }
+    
+}
+
+extension DetailTableViewController {
+    
+    func confirmSubdscribe() {
+        
+        let success = MessageView.viewFromNib(layout: .cardView)
+        success.configureTheme(.success)
+        success.configureDropShadow()
+        success.configureContent(title: "Solicitação de inscrição", body: "Clique no botão para confirmar a sua inscrição")
+        success.button?.isHidden = false
+        success.button?.setTitle("Confirmar", for: .normal)
+        success.buttonTapHandler = { _ in
+            SwiftMessages.hide()
+        }
+        
+        var successConfig = SwiftMessages.Config()
+        successConfig.duration = .forever
+        successConfig.presentationStyle = .bottom
+        successConfig.presentationContext = .window(windowLevel: UIWindowLevelNormal)
+        
+        SwiftMessages.show(config: successConfig, view: success)
+        
     }
     
 }

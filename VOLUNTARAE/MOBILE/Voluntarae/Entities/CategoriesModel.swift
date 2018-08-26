@@ -11,5 +11,5 @@ import Foundation
 public struct CategoryModel: Codable {
     public var id: Int
     public var title: String
-    public var details: [DetailModel]
+    public var detailsList: [DetailModel]
 }

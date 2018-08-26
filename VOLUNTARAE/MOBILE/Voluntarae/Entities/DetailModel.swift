@@ -18,6 +18,6 @@ public struct DetailModel: Codable {
     public var description: String
     public var organizer: String
     public var phone: String
-    public var socialMedia: String
+    public var youtube: String
     public var tags: String
 }
