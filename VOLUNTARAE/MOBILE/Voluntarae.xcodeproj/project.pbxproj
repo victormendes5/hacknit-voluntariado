@@ -60,6 +60,7 @@
 		00890B9121315630000B002C /* View */ = {
 			isa = PBXGroup;
 			children = (
+				008B4ADA213121970007191D /* LaunchScreen.storyboard */,
 				008B4AD5213121950007191D /* Main.storyboard */,
 				00B651B521321068009827C7 /* SubTableViewCell.swift */,
 			);
@@ -70,7 +71,6 @@
 			isa = PBXGroup;
 			children = (
 				008B4AD8213121970007191D /* Assets.xcassets */,
-				008B4ADA213121970007191D /* LaunchScreen.storyboard */,
 				008B4ADD213121970007191D /* Info.plist */,
 			);
 			path = Resources;

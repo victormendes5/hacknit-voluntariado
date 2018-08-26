@@ -7,4 +7,8 @@
 //
 
 import Foundation
+import SwiftMessages
 
+public class Messages {
+    
+}
