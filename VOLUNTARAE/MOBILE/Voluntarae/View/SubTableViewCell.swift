@@ -12,11 +12,11 @@ class SubTableViewCell: UITableViewCell {
 
     @IBOutlet weak var titleLbl: UILabel!
     @IBOutlet weak var subTitleLbl: UILabel!
-    @IBOutlet weak var dataLbl: UILabel!
     
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
+        titleLbl.font = UIFont.preferredFont(forTextStyle: UIFontTextStyle.headline)
+        subTitleLbl.font = UIFont.preferredFont(forTextStyle: UIFontTextStyle.subheadline)
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {

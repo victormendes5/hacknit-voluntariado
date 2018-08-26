@@ -12,6 +12,11 @@ class SubTableViewController: UITableViewController {
 
     var model: [DetailModel]!
 
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        tableView.estimatedRowHeight = 100.0
+    }
+    
     // MARK: - Table view data source
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -19,11 +24,17 @@ class SubTableViewController: UITableViewController {
     }
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "subCell", for: indexPath)
-        cell.textLabel?.text = model[indexPath.row].title
-        cell.detailTextLabel?.text = model[indexPath.row].subTitle
-        cell.selectionStyle = .none
-        return cell
+        if let cell = tableView.dequeueReusableCell(withIdentifier: "subCell", for: indexPath) as? SubTableViewCell {
+            cell.titleLbl.text = model[indexPath.row].title
+            cell.subTitleLbl.text = model[indexPath.row].subTitle
+            cell.selectionStyle = .none
+            return cell
+        }
+        return UITableViewCell()
+    }
+    
+    override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return UITableViewAutomaticDimension
     }
     
     // MARK: - Navigation

@@ -26,7 +26,7 @@ class DetailTableViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        tableView.estimatedRowHeight = 56.0
+        tableView.estimatedRowHeight = 44.0
         setUp()
     }
     
