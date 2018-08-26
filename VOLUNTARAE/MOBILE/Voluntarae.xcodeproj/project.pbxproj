@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00890B9621315684000B002C /* SignUp.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00890B9421315684000B002C /* SignUp.storyboard */; };
 		00890B98213190E3000B002C /* SubTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00890B97213190E3000B002C /* SubTableViewController.swift */; };
 		00890B9E2131A032000B002C /* Requests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00890B9D2131A032000B002C /* Requests.swift */; };
 		008B4AD2213121950007191D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008B4AD1213121950007191D /* AppDelegate.swift */; };
@@ -19,11 +18,11 @@
 		008B4AEE2131258D0007191D /* CategoriesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008B4AED2131258D0007191D /* CategoriesTableViewController.swift */; };
 		00B651B621321068009827C7 /* SubTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B651B521321068009827C7 /* SubTableViewCell.swift */; };
 		00B651B821321262009827C7 /* DetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B651B721321262009827C7 /* DetailTableViewController.swift */; };
-		B6E86B52C5BC30112DA827F9 /* Pods_AcaoNit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9EE7E00245E4EB4E1D99D18 /* Pods_AcaoNit.framework */; };
+		00B651BB213262F0009827C7 /* Messages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B651BA213262F0009827C7 /* Messages.swift */; };
+		2D7F757AE8F8821AB42CF24B /* Pods_Voluntarae.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08F221F592439963E486131F /* Pods_Voluntarae.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		00890B9521315684000B002C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/SignUp.storyboard; sourceTree = "<group>"; };
 		00890B97213190E3000B002C /* SubTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubTableViewController.swift; sourceTree = "<group>"; };
 		00890B9D2131A032000B002C /* Requests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Requests.swift; sourceTree = "<group>"; };
 		008B4ACE213121950007191D /* Voluntarae.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Voluntarae.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -37,6 +36,10 @@
 		008B4AED2131258D0007191D /* CategoriesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesTableViewController.swift; sourceTree = "<group>"; };
 		00B651B521321068009827C7 /* SubTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubTableViewCell.swift; sourceTree = "<group>"; };
 		00B651B721321262009827C7 /* DetailTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailTableViewController.swift; sourceTree = "<group>"; };
+		00B651BA213262F0009827C7 /* Messages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Messages.swift; sourceTree = "<group>"; };
+		08F221F592439963E486131F /* Pods_Voluntarae.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Voluntarae.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B95BA5EF6DB483BBEBE8183 /* Pods-Voluntarae.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Voluntarae.release.xcconfig"; path = "Pods/Target Support Files/Pods-Voluntarae/Pods-Voluntarae.release.xcconfig"; sourceTree = "<group>"; };
+		720EF7AF016B6D766EA4DD70 /* Pods-Voluntarae.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Voluntarae.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Voluntarae/Pods-Voluntarae.debug.xcconfig"; sourceTree = "<group>"; };
 		A78B24F0E527C3C665BD35E9 /* Pods-AcaoNit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AcaoNit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AcaoNit/Pods-AcaoNit.debug.xcconfig"; sourceTree = "<group>"; };
 		F9EE7E00245E4EB4E1D99D18 /* Pods_AcaoNit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AcaoNit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC42A1C6E0C0F41BBDF91C20 /* Pods-AcaoNit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AcaoNit.release.xcconfig"; path = "Pods/Target Support Files/Pods-AcaoNit/Pods-AcaoNit.release.xcconfig"; sourceTree = "<group>"; };
@@ -47,7 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B6E86B52C5BC30112DA827F9 /* Pods_AcaoNit.framework in Frameworks */,
+				2D7F757AE8F8821AB42CF24B /* Pods_Voluntarae.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,7 +61,6 @@
 			isa = PBXGroup;
 			children = (
 				008B4AD5213121950007191D /* Main.storyboard */,
-				00890B9421315684000B002C /* SignUp.storyboard */,
 				00B651B521321068009827C7 /* SubTableViewCell.swift */,
 			);
 			path = View;
@@ -113,8 +115,9 @@
 		008B4AD0213121950007191D /* Voluntarae */ = {
 			isa = PBXGroup;
 			children = (
-				00890B9F2131ACDD000B002C /* API */,
 				008B4AD1213121950007191D /* AppDelegate.swift */,
+				00890B9F2131ACDD000B002C /* API */,
+				00B651B9213262D0009827C7 /* Commons */,
 				008B4AE6213124870007191D /* Entities */,
 				00890B922131563C000B002C /* Resources */,
 				00890B9121315630000B002C /* View */,
@@ -132,10 +135,19 @@
 			path = Entities;
 			sourceTree = "<group>";
 		};
+		00B651B9213262D0009827C7 /* Commons */ = {
+			isa = PBXGroup;
+			children = (
+				00B651BA213262F0009827C7 /* Messages.swift */,
+			);
+			path = Commons;
+			sourceTree = "<group>";
+		};
 		762FA7A8FE04C1818770B413 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				F9EE7E00245E4EB4E1D99D18 /* Pods_AcaoNit.framework */,
+				08F221F592439963E486131F /* Pods_Voluntarae.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -145,6 +157,8 @@
 			children = (
 				A78B24F0E527C3C665BD35E9 /* Pods-AcaoNit.debug.xcconfig */,
 				FC42A1C6E0C0F41BBDF91C20 /* Pods-AcaoNit.release.xcconfig */,
+				720EF7AF016B6D766EA4DD70 /* Pods-Voluntarae.debug.xcconfig */,
+				0B95BA5EF6DB483BBEBE8183 /* Pods-Voluntarae.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -160,7 +174,7 @@
 				008B4ACA213121950007191D /* Sources */,
 				008B4ACB213121950007191D /* Frameworks */,
 				008B4ACC213121950007191D /* Resources */,
-				2FB299B295E1F06AA6A260ED /* [CP] Embed Pods Frameworks */,
+				A384E854AC6D2083C362BAB9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -212,39 +226,36 @@
 				008B4ADC213121970007191D /* LaunchScreen.storyboard in Resources */,
 				008B4AD9213121970007191D /* Assets.xcassets in Resources */,
 				008B4AD7213121950007191D /* Main.storyboard in Resources */,
-				00890B9621315684000B002C /* SignUp.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		2FB299B295E1F06AA6A260ED /* [CP] Embed Pods Frameworks */ = {
+		A384E854AC6D2083C362BAB9 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-AcaoNit/Pods-AcaoNit-frameworks.sh",
+				"${SRCROOT}/Pods/Target Support Files/Pods-Voluntarae/Pods-Voluntarae-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
-				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
 				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
+				"${BUILT_PRODUCTS_DIR}/PKHUD/PKHUD.framework",
 				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
-				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
-				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftMessages/SwiftMessages.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PKHUD.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftMessages.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AcaoNit/Pods-AcaoNit-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Voluntarae/Pods-Voluntarae-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		DD290ABD51B788D133AD671C /* [CP] Check Pods Manifest.lock */ = {
@@ -258,7 +269,7 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-AcaoNit-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-Voluntarae-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -273,6 +284,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				008B4AEA213124C60007191D /* DetailModel.swift in Sources */,
+				00B651BB213262F0009827C7 /* Messages.swift in Sources */,
 				00890B98213190E3000B002C /* SubTableViewController.swift in Sources */,
 				008B4AEE2131258D0007191D /* CategoriesTableViewController.swift in Sources */,
 				00B651B621321068009827C7 /* SubTableViewCell.swift in Sources */,
@@ -286,14 +298,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		00890B9421315684000B002C /* SignUp.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				00890B9521315684000B002C /* Base */,
-			);
-			name = SignUp.storyboard;
-			sourceTree = "<group>";
-		};
 		008B4AD5213121950007191D /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -429,9 +433,10 @@
 		};
 		008B4AE1213121970007191D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A78B24F0E527C3C665BD35E9 /* Pods-AcaoNit.debug.xcconfig */;
+			baseConfigurationReference = 720EF7AF016B6D766EA4DD70 /* Pods-Voluntarae.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4BELNFV56M;
 				INFOPLIST_FILE = "$(SRCROOT)/Voluntarae/Resources/Info.plist";
@@ -449,9 +454,10 @@
 		};
 		008B4AE2213121970007191D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FC42A1C6E0C0F41BBDF91C20 /* Pods-AcaoNit.release.xcconfig */;
+			baseConfigurationReference = 0B95BA5EF6DB483BBEBE8183 /* Pods-Voluntarae.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4BELNFV56M;
 				INFOPLIST_FILE = "$(SRCROOT)/Voluntarae/Resources/Info.plist";

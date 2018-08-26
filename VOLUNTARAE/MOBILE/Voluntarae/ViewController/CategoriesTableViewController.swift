@@ -35,6 +35,7 @@ class CategoriesTableViewController: UITableViewController {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
         guard let m = model else { return UITableViewCell() }
         cell.textLabel?.text = m[indexPath.row].title
+        cell.selectionStyle = .none
         return cell
     }
     
@@ -101,7 +102,9 @@ extension CategoriesTableViewController {
                                         phone: "XXXXXX",
                                         socialMedia: "Mais informações no site da campanha www.adotareobicho.com.br ou no instagram @adotareobichonit",
                                         tags: "cão, animal, pets, adoção, secretária do meio ambiente")
-        let caseModelOne = CategoryModel(id: 1, title: "Meio ambiente",
+        
+        let caseModelOne = CategoryModel(id: 1,
+                                         title: "Meio ambiente",
                                          details: [caseDetailOne])
         
         return [caseModelOne]

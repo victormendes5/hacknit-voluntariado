@@ -1,13 +1,13 @@
 # Uncomment the next line to define a global platform for your project
  platform :ios, '10.0'
 
-target 'AcaoNit' do
+target 'Voluntarae' do
   # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
   use_frameworks!
 
-  # Pods for AcaoNit
+  # Pods for Voluntarae
   pod 'Moya'
-  pod 'Firebase/Core'
-  pod 'Firebase/Database'
-  
+  pod 'SwiftMessages'
+  pod 'PKHUD'
+
 end

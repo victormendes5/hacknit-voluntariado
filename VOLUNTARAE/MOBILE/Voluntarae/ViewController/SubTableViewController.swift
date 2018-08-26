@@ -19,19 +19,13 @@ class SubTableViewController: UITableViewController {
     }
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        if let cell = tableView.dequeueReusableCell(withIdentifier: "subCell", for: indexPath) as? SubTableViewCell {
-            cell.titleLbl?.text = model[indexPath.row].title
-            cell.subTitleLbl.text = model[indexPath.row].subTitle
-            cell.dataLbl.text = model[indexPath.row].date
-            return cell
-        }
-        return UITableViewCell()
+        let cell = tableView.dequeueReusableCell(withIdentifier: "subCell", for: indexPath)
+        cell.textLabel?.text = model[indexPath.row].title
+        cell.detailTextLabel?.text = model[indexPath.row].subTitle
+        cell.selectionStyle = .none
+        return cell
     }
     
-    override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 100
-    }
-
     // MARK: - Navigation
     
     override public func prepare(for segue: UIStoryboardSegue, sender: Any?) {

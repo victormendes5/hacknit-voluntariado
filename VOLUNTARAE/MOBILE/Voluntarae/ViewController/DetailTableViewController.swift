@@ -27,6 +27,9 @@ class DetailTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        tableView.rowHeight = UITableViewAutomaticDimension
+        tableView.estimatedRowHeight = 140
+        
         setUp()
     }
 
@@ -43,5 +46,5 @@ class DetailTableViewController: UITableViewController {
         self.tagsLbl.text = model.tags
         self.titleLbl.text = model.title
     }
-
+    
 }

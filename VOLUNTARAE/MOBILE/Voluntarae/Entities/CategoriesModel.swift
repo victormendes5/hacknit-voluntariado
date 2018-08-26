@@ -7,7 +7,6 @@
 //
 
 import Foundation
-import Firebase
 
 public struct CategoryModel: Codable {
     public var id: Int
