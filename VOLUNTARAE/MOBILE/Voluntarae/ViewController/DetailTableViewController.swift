@@ -66,6 +66,9 @@ extension DetailTableViewController {
         success.button?.isHidden = false
         success.button?.setTitle("Confirmar", for: .normal)
         success.buttonTapHandler = { _ in
+            self.subscribeLbl.setTitle("Inscrito", for: .normal)
+            self.subscribeLbl.setTitleColor(UIColor.white, for: .normal)
+            self.subscribeLbl.backgroundColor = UIColor(red: 0.0/255, green: 126.0/255, blue: 51.0/255, alpha: 1)
             SwiftMessages.hide()
         }
         
